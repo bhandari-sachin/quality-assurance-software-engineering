@@ -19,7 +19,7 @@ let posts = []; // {id, userId, content}
 // Helper: authenticate middleware
 
 const authenticate = (req, res, next) => {
-  const authHeader = req.headers.authorizaion;
+  const authHeader = req.headers.authorization;
   if (!authHeader) {
     return res.status(401).json({ message: "Authorization header missing" });
   }
