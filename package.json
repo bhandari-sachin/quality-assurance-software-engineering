@@ -12,6 +12,7 @@
   "type": "module",
   "devDependencies": {
     "chai": "^6.2.2",
+    "cypress": "^15.8.2",
     "mocha": "^11.7.5"
   },
   "dependencies": {

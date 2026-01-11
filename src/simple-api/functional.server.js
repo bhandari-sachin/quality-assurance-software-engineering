@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 
 const JWT_SECRET = "jdljfldalfjldflafdflaf"; // In production, use environment variables
 
-// In-memory data stoers
+// In-memory data stores
 
 let users = []; // {id, name, email, passwordHash}
 let posts = []; // {id, userId, content}
