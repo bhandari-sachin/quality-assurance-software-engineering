@@ -42,7 +42,7 @@ const authenticate = (req, res, next) => {
 app.post("/api/auth/register", async (req, res) => {
   const { name, email, password } = req.body;
 
-  // Basic VAlidation
+  // Basic validation
   if (!name || !email || !password) {
     return res.status(400).json({ message: "All fields are required" });
   }
